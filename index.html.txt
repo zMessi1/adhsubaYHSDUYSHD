@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negocios Digitales</title>
+    <link rel="stylesheet" href="style.css">
+    a href=https://juanricopene123.com/
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Negocios Digitales</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="container">
+            <h2>Transforma tu negocio al mundo digital</h2>
+            <p>Ofrecemos soluciones innovadoras para impulsar tu negocio en la era digital. Desde desarrollo de sitios web hasta estrategias de marketing digital, estamos aquí para ayudarte a crecer.</p>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Nuestros Servicios</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <h3>Desarrollo Web</h3>
+                <p>Creación de sitios web responsivos y adaptados a tus necesidades.</p>
+            </div>
+            <div class="service-item">
+                <h3>Marketing Digital</h3>
+                <p>Estrategias personalizadas para aumentar tu presencia en línea.</p>
+            </div>
+            <div class="service-item">
+                <h3>Consultoría</h3>
+                <p>Asesoría para la transformación digital de tu empresa.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="container">
+        <h2>Galería</h2>
+        <div class="gallery-grid">
+            <img src="https://via.placeholder.com/300" alt="Imagen 1">
+            <img src="https://via.placeholder.com/300" alt="Imagen 2">
+            <img src="https://via.placeholder.com/300" alt="Imagen 3">
+            <img src="https://via.placeholder.com/300" alt="Imagen 4">
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+            <input type="email" id="email" name="email" placeholder="Tu email" required>
+            <textarea id="message" name="message" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Negocios Digitales. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
